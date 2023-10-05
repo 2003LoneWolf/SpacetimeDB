@@ -61,11 +61,11 @@
 
 ## What is [SpacetimeDB](https://spacetimedb.com)?
 
-You can think of SpacetimeDB as both a database and server combined into one.
+You can think of SpacetimeDB as both a database and a server combined into one.
 
 It is a relational database system that lets you upload your application logic directly into the database by way of fancy stored procedures called "modules."
 
-Instead of deploying a web or game server that sits in between your clients and your database, your clients connect directly to the database and execute your application logic inside the database itself. You can write all of your permission and authorization logic right inside your module just as you would in a normal server.
+Instead of deploying a web or game server that sits in between your clients and your database, your clients connect directly to the database and execute your application logic inside the database itself. You can write all of your permission and authorization logic right inside your module, just as you would in a normal server.
 
 This means that you can write your entire application in a single language, Rust, and deploy it as a single binary. No more microservices, no more containers, no more Kubernetes, no more Docker, no more VMs, no more DevOps, no more infrastructure, no more ops, no more servers.
 
